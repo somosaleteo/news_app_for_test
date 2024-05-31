@@ -5,7 +5,7 @@ import 'dart:io';
 import '../models/news_model.dart';
 
 class NewsApiService {
-  static const String _apiKey = 'e314395b2db24dca8f827e2b44c73cf6';
+  static const String _apiKey = '<PONER TU PROPIA API KEY DE NEWS API>';
   static const String _baseUrl = 'https://newsapi.org/v2';
 
   Future<List<NewsModel>> fetchTopHeadlines() async {
